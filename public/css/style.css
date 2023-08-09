@@ -12,7 +12,7 @@
   }
   
   body {
-    background-color: white;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72);
     margin: 0;
     padding: 0;
     font-family: "IBM Plex Sans", sans-serif;
@@ -104,9 +104,13 @@
   .navbar {
     width: 100%;
     position: fixed;
-    background-color: white;
+    /* background-color: white; */
     margin-top: 20px;
     margin-left: 50px;
+  }
+
+  .navbar-menu {
+    background-color: transparent;
   }
   
   .nav-item {
@@ -129,7 +133,7 @@
   
   .hero {
     padding: 3% 4%;
-    background-color: var(--dark);
+    /* background-color: white; */
     color: var(--primary);
   }
   
@@ -139,16 +143,16 @@
   
   .app-title {
     font-size: 3rem;
-    background-color: var(--primary);
+    box-shadow: 0 5px 10px rgb(0 0 0 / 0.1);
     color: var(--dark);
     padding: 0 10px;
     display: inline-block;
     border-radius: var(--border-radius);
-    box-shadow: 6px 5px var(--light-dark);
+    /* box-shadow: 6px 5px; */
   }
   
   .app-title a {
-    color: var(--dark);
+    color: hsla(253, 10%, 7%, 0.87);
   }
   
   .list-group {
@@ -181,13 +185,17 @@
   /* CARDS */
   .card {
     margin: 0 0 20px 0;
-    border: 3px solid var(--dark);
-    border-radius: var(--border-radius);
+    border: 3px var(--dark);
+    box-shadow: 0 10px 10px rgb(0 0 0 / 0.3);
+    border-radius: 10px 10px 10px 10px;
+    margin-right: 600px;
+    margin-left: 600px;
+    height: 500px;
   }
   
   .card-header {
     color: var(--primary);
-    background-color: var(--dark);
+    /* background-color: var(--dark); */
     padding: 1%;
     border-radius: calc(0.18rem - 1px) calc(0.18rem - 1px) 0 0;
   }
