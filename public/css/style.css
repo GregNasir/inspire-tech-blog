@@ -12,7 +12,7 @@
   }
   
   body {
-    background-color: var(--primary);
+    background-color: white;
     margin: 0;
     padding: 0;
     font-family: "IBM Plex Sans", sans-serif;
@@ -104,7 +104,9 @@
   .navbar {
     width: 100%;
     position: fixed;
-    background-color: var(--dark);
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 50px;
   }
   
   .nav-item {
@@ -113,6 +115,16 @@
   
   .nav-item a {
     color: var(--primary);
+  }
+
+  .navbar-start {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+
+  .navbar-end {
+    margin-right: 100px;
   }
   
   .hero {
