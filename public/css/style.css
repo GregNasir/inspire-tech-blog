@@ -105,21 +105,21 @@
     width: 100%;
     position: fixed;
     /* background-color: white; */
-    margin-top: 20px;
-    margin-left: 50px;
+    /* margin-top: 20px; */
+    
   }
 
-  .navbar-menu {
+  /* .navbar-menu {
     background-color: transparent;
-  }
+  } */
   
   .nav-item {
     margin: 0 40px;
   }
   
-  .nav-item a {
+  /* .nav-item a {
     color: var(--primary);
-  }
+  } */
 
   .navbar-start {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -129,6 +129,10 @@
 
   .navbar-end {
     margin-right: 100px;
+  }
+
+  .sign-main {
+    text-align: center;
   }
   
   .hero {
@@ -188,9 +192,9 @@
     border: 3px var(--dark);
     box-shadow: 0 10px 10px rgb(0 0 0 / 0.3);
     border-radius: 10px 10px 10px 10px;
-    margin-right: 600px;
-    margin-left: 600px;
-    height: 500px;
+    margin-right: 500px;
+    margin-left: 500px;
+    height: 300px;
   }
   
   .card-header {
