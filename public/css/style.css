@@ -8,6 +8,11 @@ header, .project:not(:last-child) {
   border-bottom: 1px solid #ccc;
 }
 
+/* body {
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72);
+  
+} */
+
 .wrapper{
   max-width: 1200px;
 }
@@ -199,7 +204,8 @@ header, .project:not(:last-child) {
 
 footer{
   margin-top: 60px;
-  font-size: 1.4em;
+  font-size: 1.0em;
+  text-align: center;
 }
   
   /* col-sm */
@@ -410,7 +416,7 @@ footer{
 
 
 
-  body {
+  /* body {
     background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72);
     margin: 0;
     padding: 0;
@@ -418,4 +424,4 @@ footer{
     color: var(--dark);
     line-height: 1.5;
     font-size: 16px;
-  }
+  } */
