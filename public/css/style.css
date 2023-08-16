@@ -8,10 +8,14 @@ header, .project:not(:last-child) {
   border-bottom: 1px solid #ccc;
 }
 
-/* body {
-  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72);
-  
-} */
+html {
+  height: 100%;
+}
+
+body {
+      height: 100%;
+      background-repeat: no-repeat;
+      background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);    }
 
 .wrapper{
   max-width: 1200px;
