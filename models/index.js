@@ -1,3 +1,4 @@
+// models and their relations
 const User = require('./User');
 const Post = require('./Post');
 const Comment = require('./Comment');

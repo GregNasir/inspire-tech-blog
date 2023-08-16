@@ -1,3 +1,4 @@
+// Post model and parameters
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 

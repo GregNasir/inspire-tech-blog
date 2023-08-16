@@ -11,6 +11,7 @@ router.get('/', (req, res) => {
         });
 });
 
+// Finds user by id
 router.get('/:id', (req, res) => {
     User.findOne({
             attributes: { exclude: ['password'] },
@@ -54,7 +55,7 @@ router.get('/:id', (req, res) => {
         });
 });
 
-
+// Creates User
 router.post('/', (req, res) => {
 
     User.create({
@@ -78,6 +79,7 @@ router.post('/', (req, res) => {
         });
 });
 
+// Allows user to login with credentials used to sign up
 router.post('/login', (req, res) => {
     User.findOne({
             where: {
@@ -109,6 +111,7 @@ router.post('/login', (req, res) => {
         });
 });
 
+// logout
 router.post('/logout', (req, res) => {
     if (req.session.loggedIn) {
         req.session.destroy(() => {

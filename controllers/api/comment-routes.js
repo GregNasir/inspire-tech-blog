@@ -1,3 +1,4 @@
+// imports dependencies 
 const router = require('express').Router();
 const { Comment } = require('../../models');
 const withAuth = require('../../utils/auth');
@@ -10,6 +11,7 @@ router.get('/', (req, res) => {
         })
 });
 
+// Gets all comments for a post by ID
 router.get('/:id', (req, res) => {
     Comment.findAll({
             where: {
@@ -23,6 +25,7 @@ router.get('/:id', (req, res) => {
         })
 });
 
+// Create comment with authorization
 router.post('/', withAuth, (req, res) => {
     if (req.session) {
         Comment.create({
@@ -38,6 +41,7 @@ router.post('/', withAuth, (req, res) => {
     }
 });
 
+// Updates comments
 router.put('/:id', withAuth, (req, res) => {
     Comment.update({
         comment_text: req.body.comment_text
@@ -57,6 +61,7 @@ router.put('/:id', withAuth, (req, res) => {
     });
 });
 
+// Deletes comment
 router.delete('/:id', withAuth, (req, res) => {
     Comment.destroy({
         where: {

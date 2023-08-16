@@ -3,6 +3,7 @@ const { Post, User, Comment } = require('../../models');
 const sequelize = require('../../config/connection');
 const withAuth = require('../../utils/auth');
 
+// Gets all posts
 router.get('/', (req, res) => {
     console.log('======================');
     Post.findAll({
@@ -35,6 +36,8 @@ router.get('/', (req, res) => {
         });
 
 });
+
+// Find post by id
 router.get('/:id', (req, res) => {
     Post.findOne({
             where: {
@@ -72,6 +75,7 @@ router.get('/:id', (req, res) => {
         });
 });
 
+// Create posts with authorization
 router.post('/', withAuth, (req, res) => {
     Post.create({
             title: req.body.title,
