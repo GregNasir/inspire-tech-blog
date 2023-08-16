@@ -15,7 +15,9 @@ html {
 body {
       height: 100%;
       background-repeat: no-repeat;
-      background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72);    }
+      /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72);     */
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
 
 .wrapper{
   max-width: 1200px;
@@ -110,6 +112,7 @@ body {
 .post-content{
   padding: 10px !important;
   text-align: left !important;
+  font-size: 15px;
 }
 
 .post-button{
