@@ -32,7 +32,8 @@ Using handlebars is an easier and effective way to render code to html scripts. 
   
 * <a href="https://inspire-tech-blog-9d94a91a774d.herokuapp.com/">Inspire Tech Blog</a>
 
-<img width="1950" alt="Productivity-Pal-screen-shot" src="https://github.com/GregNasir/productivity-pal/assets/63434657/4abe273d-0dbc-4978-afd0-c4dff407f25a">
+<img width="721" alt="Inspire-tech-blog-screenshot" src="https://github.com/GregNasir/inspire-tech-blog/assets/63434657/ed8a7028-a045-477b-a444-722fcf386ae6">
+
 
 
 ## Installation
