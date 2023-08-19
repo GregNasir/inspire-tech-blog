@@ -3,7 +3,7 @@ by Gregory Williams
 
 ## Table of Contents
 * [Description](#description)
-* [Repository and demo](#repository-and-demo)
+* [Repository and demo](#repositoryanddemo)
 * [Installation](#installation)
 * [Usage](#usage)
 * [Tests](#tests)
